@@ -90,10 +90,6 @@ export default function Appointment() {
 
             <Container maxWidth="lg" sx={{ marginTop: "100px" }}>
 
-
-                {/************************ Posting Comments**************** */}
-
-
                 <Box component="div"  >
                     <div>
                         <h1>Make Appoinment</h1>
@@ -165,18 +161,6 @@ export default function Appointment() {
               <TextField id="outlined-multiline-static message"  multiline rows={4}
                              fullWidth   placeholder="Message" variant="filled"  {...register("message", { required: true })} />
               </Grid>
-
-              {/* <Grid item xs={12}>
-                <TextField
-                  required
-                  fullWidth
-                  name="password"
-                  label="Password"
-                  type="password"
-                  id="password"
-                  autoComplete="new-password"
-                />
-              </Grid> */}
               
             </Grid>
             <Button
